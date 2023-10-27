@@ -1,0 +1,15 @@
+div p {color: red
+"combinardor descendente"}
+
+
+div > p {color: green 
+"combinador filho direto"}
+
+
+div + p {color:blue
+"combinador irmão adjacente"}
+
+
+div ~ p {color: black
+"combinador irmão gerais"}
+

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    margin-top: -5%;
+    font-family: cursive;}
+.texto {
+    margin: 10%
+}
+
+.cabeçalho {
+    background-color: greenyellow;}
+
+#hcb {
+    background-color: greenyellow;
+    color: black;
+    font-size: 100px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 15px 15px 15px gray;
+}
+ul {
+    position:fixed;
+    top: 25%;
+    right: 0%;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    }
+li a {            
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    background-color: #6e6565;
+    border-bottom: 1px solid #080808;}
+li a:hover {
+        background-color: greenyellow;
+}
+
+.menu ul li:nth-child(1) a {
+    color: #1ca80a;
+}
+.menu ul li:nth-child(2) a {
+    color: #30c47a;
+}
+.menu ul li:nth-child(3) a {
+    color: #8edb36;
+}
+.tabela {
+    text-align: center;
+    margin-left: 30%;
+}
+.tabela:hover {
+    color:#1ca80a
+}
+#htb {
+    margin-right: 42%;}
+#pnl {
+    text-align: center;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2cm;
+    background-color: greenyellow;
+    box-shadow: 15px 15px 15px gray;}
+.rodape {
+    background-color: greenyellow;
+    color: gray;
+    padding: 80px;
+    text-align: center;
+}
+.rodape a {
+    color:darkgreen
+}
+.rodape:hover {
+    background-color: gray
+;}

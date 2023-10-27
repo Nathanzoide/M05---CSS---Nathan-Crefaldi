@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid goldenrod;}
+  .absolute-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;}
+  .relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  .float-box {
+    float: right;}
+  .z-index-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;}
+  .rotate-box {
+    transform: rotate(45deg);}
+  .translate-box {
+    transform: translate(50px, 50px);}
+</style>
+</head>
+<body>
+  <div class="box">1 Basico</div>
+<div class="box absolute-box">2 Absoluto</div>
+<div class="box relative-box">3 Relativo</div>
+<div class="box float-box">4 float</div>
+  <div class="box">Fluxo</div>
+  <div class="box z-index-box">5 Sobreposição chata</div>
+  <div class="box">Base</div>
+  <div class="box rotate-box">6 Rotação</div>
+  <div class="box translate-box">7 Translação</div>
+</body>
+</html>

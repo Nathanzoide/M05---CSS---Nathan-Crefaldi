@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>    
+        <head>
+            <style>
+                div p {color: red;}
+                div > p {font-style: italic;}
+                div + p {font-weight: bold;}
+                div ~ p {color: green;}
+            </style>
+        </head>
+        <body>
+            <title>A diferença entre os seletores de combinadores esta em como eles interagem com os elementos p em uma div</title>
+            <div>
+                <p>Este é um seletor descendente</p>
+            </div>
+            <div>
+                <p>Este é um seletor filho direto</p>
+                    <span><p>Não sou filho direto</p></span>
+            </div>div</div>
+            <p>Este é um seletor filho adjacente</p>
+            <p>Este é um seletor irmão gerais</p>
+        </body>
+</html>
