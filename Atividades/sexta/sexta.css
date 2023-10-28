@@ -1,0 +1,63 @@
+.titulo {
+    text-align: center;
+    margin-left: -7%;
+    margin-top: 3%;
+}
+body {
+    font-family: sans-serif;
+}
+.logo {
+    padding-left: 100px;
+    padding-right: 100px;
+    color:white;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+ul {
+    position: fixed;
+    width: 250px;
+    height: 1000px;
+    right: 0%;
+    top:0%;
+    list-style: none;
+    padding: 10px;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+ul li {
+    display: block;
+    margin-top: 65%;
+    margin-bottom: 65%;
+}
+li a {
+    text-decoration: none;
+}
+li a:hover {
+    color:green
+}
+.menu ul li:nth-child(1) a {
+    color:white
+}
+.menu ul li:nth-child(2) a {
+    color:white
+}
+.menu ul li:nth-child(3) a {
+    color:white
+}
+.menu ul li:nth-child(4) a {
+    color:white
+}
+
+.texto {
+    margin-right: 20%;
+    margin-left: 3%;
+}
+.certificado{
+    padding: 3%; 
+    padding-right: 20%;
+}
+
